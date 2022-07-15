@@ -61,6 +61,7 @@
 
 .c-form{
     margin-top: 20px;
+    width: 100%;
 }
 
 .c-input{
@@ -87,4 +88,56 @@
     color: black;
     font-weight: 500;
     cursor: pointer;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.p-submit{
+    margin-top: 20px;
+    font-weight: bold;
+    
+}
+
+.p-errors{
+    width: 50%;
+    color:red
+}
+
+.p-errors-m{
+    width: 50%;
+    margin-bottom: 15px;
+    color: red;
+}
+
+@media screen and (max-width: 480px){
+    .c-wrapper{
+        flex-direction: column;
+        padding: 0px 50px;
+    }
+
+    .c-title{
+        font-size: 30px;
+    }
+
+    .c-left{
+        flex-wrap: wrap;
+        margin: 0px 5px;
+    }
+
+    .c-desc-b, .c-desc{
+        display: none;
+    }
+
+    .c-info-item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px 5px; 
+        width: 100%;
+    }
+
+    .c-form{
+        margin-top: 0px;
+        display: flex;
+        flex-wrap: wrap;
+    }
 }

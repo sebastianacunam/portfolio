@@ -64,6 +64,7 @@
     color: rgb(198,145,28);
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .i-img{
@@ -81,4 +82,29 @@
     position: absolute;
     top: 0;
     right: 0;
+}
+
+@media screen and (max-width: 480px){
+    .i{
+        flex-direction: column;
+    }
+
+    .i-left-wrapper{
+        padding: 10px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    .i-title-item{
+        height: 100%;
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .i-desc{
+        display: none;
+    }
 }

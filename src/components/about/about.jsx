@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './about.css'
 import sebasFront from '../../img/Sebasfront.jpg'
 import css from '../../img/css.png'
@@ -9,12 +9,17 @@ import nodejs from '../../img/nodejs.png'
 import react from '../../img/react.png'
 import express from '../../img/express.png'
 import postgres from '../../img/postgres.png'
+import { ThemeContext } from '../../reducer'
 
 const About = () => {
+
+    const theme = useContext(ThemeContext)
+    const darkModeOn = theme.state.darkMode
+
   return (
     <div className='a'>
         <div className="a-left">
-            <div className="a-card bg"></div>
+            <div className="a-card bg" style={{backgroundColor: darkModeOn ? "#c6911c" : "#333"}}></div>
             <div className="a-card">
                 <img src={sebasFront} alt="" className="a-img" />
             </div>

@@ -53,6 +53,7 @@
 
 .a-techStack{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     margin: 0px 50px;
@@ -71,4 +72,38 @@
 .a-img-express{
     width: 100px;
     height: 60px;
+}
+
+@media screen and (max-width: 480px){
+    .a{
+        flex-direction: column;
+        text-align: center;
+        margin-top: 50px;
+        height: 100%;
+    }
+    
+    .a-left{
+        width: 100%;
+    }
+
+    .a-card{
+        height: 30vh;
+    }
+
+    .a-card.bg{
+        display: none;
+    }
+
+    .a-techStack{
+        flex-direction: row;
+        margin-top: 20px;
+        width: 75%;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .a-right{
+        padding: 20px;
+    }
 }
