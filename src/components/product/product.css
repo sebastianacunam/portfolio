@@ -32,5 +32,5 @@
 }
 
 .p:hover .p-img{
-    transform: translateY(-50%);
+    transform: translateY(-45%);
 }

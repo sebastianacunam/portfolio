@@ -1,13 +1,15 @@
 import About from "./components/about/about";
+import Contact from "./components/contact/Contact";
 import Intro from "./components/intro/intro";
 import ProductList from "./components/productList/productList";
 
 
 const App = () => {
   return <div>
-    <Intro/>
+    <Intro />
     <About />
     <ProductList />
+    <Contact />
     </div>;
 };
 
