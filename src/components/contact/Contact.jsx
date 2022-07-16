@@ -4,7 +4,8 @@ import linkedin from '../../img/linkedin.png';
 import email from '../../img/mail.png';
 import pointer from '../../img/pointer.png';
 import emailjs from '@emailjs/browser';
-import { ThemeContext } from '../../reducer'
+import github from '../../img/github.png';
+import { ThemeContext } from '../../reducer';
 
 const Contact = () => {
 
@@ -98,6 +99,11 @@ const Contact = () => {
                     <div className="c-info-item">
                         <a href="https://goo.gl/maps/fMLDsZcNAvLqzp937" target='_blank' rel='noreferrer'>
                             <img src={pointer} alt="" className="c-icon" />
+                        </a>
+                    </div>
+                    <div className="c-info-item">
+                        <a href="https://github.com/sebastianacunam" target='_blank' rel='noreferrer'>
+                            <img src={github} alt="" className="c-icon" />
                         </a>
                     </div>
 
