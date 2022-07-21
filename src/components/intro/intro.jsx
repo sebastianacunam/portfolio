@@ -1,6 +1,7 @@
 import React from 'react'
 import './intro.css'
 import sebas from '../../img/Sebas-removebg.png'
+import cv from '../../utils/cv.pdf'
 
 const Intro = () => {
   return (
@@ -19,13 +20,16 @@ const Intro = () => {
                     </div>
                 </div>
                 <div className='i-desc'>
-                <h4>
-                    I develop websites for customers of all sizes.
-                    I love teamwork, I really like to interact 
-                    with my co-workers and I am very good at communication! 
-                    I'm also, always, willing to learn new technologies.                 
-                </h4>
+                    <h4>
+                        I develop websites for customers of all sizes.
+                        I love teamwork, I really like to interact 
+                        with my co-workers and I am very good at communication! 
+                        I'm also, always, willing to learn new technologies.                 
+                    </h4>
+
+                    {/* <a href="documento.pdf" download="mi-archivo.pdf">Descargar</a> */}
                 </div>
+                    <a className="i-btn" href={cv} download> download cv</a>
             </div>    
         </div>
         {/* this will let me remind the separation between the left and right side */}

@@ -13,6 +13,7 @@ const ProductList = () => {
             </p>
         </div>
         <div className="pl-list">
+          {console.log(products)}
         {products.map(p=>(
             <Product img={p.img} link={p.link} key={p.id}/>
         ))}
