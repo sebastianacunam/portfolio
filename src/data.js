@@ -8,32 +8,32 @@ import vitabiosa from './img/vitabiosa.png'
 export const products = [
     {
         id: 1,
-        img: picountries,
-        link: "https://pi-countries-sebastianacunam.vercel.app/"
+        img: vitabiosa,
+        link: "https://vitabiosa.com.ar/"
     },
     {
         id: 2,
-        img: pifood,
-        link: "https://pi-food-sebastianacunam.vercel.app/"
-    },
-    {
-        id: 3,
-        img: esocial,
-        link: "https://e-social-book.netlify.app/"
-    },
-    {
-        id: 4,
         img: citadina,
         link: "https://alojamiento-citadina.vercel.app/"
     },
     {
-        id: 5,
+        id: 3,
         img: prix,
         link: "https://prix.com.ar/"
     },
     {
+        id: 4,
+        img: esocial,
+        link: "https://e-social-book.netlify.app/"
+    },
+    {
+        id: 5,
+        img: pifood,
+        link: "https://pi-food-sebastianacunam.vercel.app/"
+    },
+    {
         id: 6,
-        img: vitabiosa,
-        link: "https://vitabiosa.com.ar/"
-    }
+        img: picountries,
+        link: "https://pi-countries-sebastianacunam.vercel.app/"
+    },
 ]
