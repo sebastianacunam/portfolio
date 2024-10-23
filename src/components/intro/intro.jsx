@@ -21,10 +21,10 @@ const Intro = () => {
                 </div>
                 <div className='i-desc'>
                     <h4>
-                        I develop websites for customers of all sizes.
-                        I love teamwork, I really like to interact 
-                        with my co-workers and I am very good at communication! 
-                        I'm also, always, willing to learn new technologies.                 
+                    I specialize in developing websites for clients of all sizes, 
+                    delivering tailored solutions to meet diverse needs. I thrive in 
+                    collaborative environments, enjoy engaging with my team, and excel 
+                    in clear, effective communication.
                     </h4>
 
                     {/* <a href="documento.pdf" download="mi-archivo.pdf">Descargar</a> */}

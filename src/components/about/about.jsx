@@ -31,7 +31,7 @@ const About = () => {
             maybe a quick info so you can get to know me a little bit!
         </p>
         <p className='a-desc'>
-            My name is Sebastián, better known as Sebas, I'm 26 years old, musician, barista and recently I've discovered I have a huge 
+            My name is Sebastián, better known as Sebas, I'm 28 years old, musician, barista and recently I've discovered I have a huge 
             pasion for coding. I studied systems engineering and, of course, I want to keep opening my knowledge in this new world I'm facing.
         </p>
             <br/>
