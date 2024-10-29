@@ -3,6 +3,7 @@ import pifood from './img/pifood.png'
 import esocial from './img/esocial.png'
 import citadina from './img/citadina.png'
 import prix from './img/prix.png'
+import hbs from './img/hbs.png'
 // import vitabiosa from './img/vitabiosa.png'
 
 export const products = [
@@ -12,28 +13,33 @@ export const products = [
     //     link: "https://vitabiosa.com.ar/"
     // },
     {
-        id: 2,
+        id: 1,
         img: citadina,
         link: "https://alojamiento-citadina.vercel.app/"
     },
     {
-        id: 3,
+        id: 2,
         img: prix,
         link: "https://prixparts.com/"
     },
     {
-        id: 4,
+        id: 3,
         img: esocial,
         link: "https://e-social-book.netlify.app/"
     },
     {
-        id: 5,
+        id: 4,
         img: pifood,
         link: "https://pi-food-sebastianacunam.vercel.app/"
     },
     {
-        id: 6,
+        id: 5,
         img: picountries,
         link: "https://pi-countries-sebastianacunam.vercel.app/"
+    },
+    {
+        id: 6,
+        img: hbs,
+        link: "https://highbreedseeds.com/"
     },
 ]
