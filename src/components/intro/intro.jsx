@@ -1,7 +1,7 @@
 import React from 'react'
 import './intro.css'
 import sebas from '../../img/Sebas-removebg.png'
-import cv from '../../utils/cv.pdf'
+import cv from '../../utils/cv2025.pdf'
 
 const Intro = () => {
   return (

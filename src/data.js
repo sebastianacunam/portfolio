@@ -1,16 +1,21 @@
 import picountries from './img/picountries.png'
 import pifood from './img/pifood.png'
-import esocial from './img/esocial.png'
+import devforge from './img/dev-forge.png'
 import citadina from './img/citadina.png'
 import prix from './img/prix.png'
 import hbs from './img/hbs.png'
-// import vitabiosa from './img/vitabiosa.png'
+import eggTimer from './img/eggTimerImg.png'
 
 export const products = [
     // {
     //     id: 1,
     //     img: vitabiosa,
     //     link: "https://vitabiosa.com.ar/"
+    // },
+    // {
+    //     id: 3,
+    //     img: esocial,
+    //     link: "https://e-social-book.netlify.app/"
     // },
     {
         id: 1,
@@ -24,8 +29,8 @@ export const products = [
     },
     {
         id: 3,
-        img: esocial,
-        link: "https://e-social-book.netlify.app/"
+        img: devforge,
+        link: "https://dev-forge.com"
     },
     {
         id: 4,
@@ -42,4 +47,9 @@ export const products = [
         img: hbs,
         link: "https://highbreedseeds.com/"
     },
+    {
+        id: 7,
+        img: eggTimer,
+        link: "https://egg-timer-mu.vercel.app/"
+    }
 ]
